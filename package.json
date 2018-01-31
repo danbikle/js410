@@ -1,0 +1,17 @@
+{
+  "name": "mljs",
+  "version": "1.0.0",
+  "description": "An attempt to operate keras.js",
+  "main": "node_modules/http-server/bin/http-server",
+  "scripts": {
+    "test": "echo 'hello world' && exit"
+  },
+  "author": "Dan",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "0.11.1"
+  },
+  "engines": {
+    "node": "9.4.0"
+  }
+}
