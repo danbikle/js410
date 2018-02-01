@@ -34,6 +34,10 @@ I intend for the above URLs to serve you a blank white page.
 
 I use the above pages to teach students how to operate a JavaScript debugger in the chrome-browser.
 
+Class materials should be at this URL:
+
+https://js4.herokuapp.com/
+
 If you have questions, e-me:
 
 bikle101 at gmail
