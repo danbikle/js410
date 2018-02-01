@@ -26,9 +26,9 @@ node_modules/.bin/http-server
 
 A web-server on your laptop should come to life and you can try these three URLs:
 
-http://localhost:8080
-http://localhost:8080/index2.html
-http://localhost:8080/index3.html
+* http://localhost:8080
+* http://localhost:8080/index2.html
+* http://localhost:8080/index3.html
 
 I intend for the above URLs to serve you a blank white page.
 
