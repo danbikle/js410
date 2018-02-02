@@ -22,6 +22,10 @@ var some_a = [num_i, float_i, some1_s, ['arrayinarray',411]]
 // I should create an object
 var some_o = {'key0': 'hello', num_i: 'world'}
 
+// Works better
+var my_o = {'key0': 'hello'}
+my_o[num_i] = 'world'
+
 // I should create two booleans
 var is_true  = true
 var is_false = false
@@ -50,6 +54,7 @@ print(some3_s)
 print(some4_s)
 print(some_a)
 print(some_o)
+print(my_o)
 print(is_true)
 print(is_false)
 print(f10)
