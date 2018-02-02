@@ -87,11 +87,21 @@ class Dog {
 var rex      = new Dog('Rex', 'Lab', 20)
 var rex_mood = rex.mood('Happy')
 
-// if, then, else
+// if, then, else, else if
 if ( 1 > 2 ) {
     var is_1_gt2 = true
 } else {
     var is_1_gt2 = false
+}
+
+var weather  = 'rainy'
+var greeting = 'hello'
+if (weather == 'snowing') {
+    greeting = "Let's ski"
+} else if (weather == 'hot') {
+    greeting = "Let's swim"
+} else {
+    greeting = "Let's code"
 }
 
 // for-loop
@@ -140,4 +150,4 @@ print(rex_mood)
 print(is_1_gt2)
 print(loop_a)
 print(obj_a)
-
+print(greeting)
