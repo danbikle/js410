@@ -21,10 +21,11 @@ var some_a = [num_i, float_i, some1_s, ['arrayinarray',411]]
 
 // I should create an object
 var some_o = {'key0': 'hello', num_i: 'world'}
+// Above, num_i does NOT get filled by 7
 
 // Works better
 var my_o = {'key0': 'hello'}
-my_o[num_i] = 'world'
+my_o[num_i] = 'world' // num_i == 7
 
 // I should create two booleans
 var is_true  = true
@@ -46,6 +47,10 @@ print = function(x) {
     return true
 }
 
+// I should get a Date
+my_dt_i = Date.now() // UNIX time
+my_dt_s = Date() // Readable
+
 print(num_i)
 print(float_i)
 print(some1_s)
@@ -59,6 +64,5 @@ print(is_true)
 print(is_false)
 print(f10)
 print(f11)
-
-
-
+print(my_dt_i)
+print(my_dt_s)
