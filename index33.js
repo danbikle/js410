@@ -52,13 +52,17 @@ my_dt_i = Date.now() // UNIX time
 my_dt_s = Date() // Readable
 
 // Some Math
-my_pi  = Math.PI
-my_e   = Math.E
-root_f = Math.sqrt(2.0)
-cos_f  = Math.cos(1) // radian
-exp_f  = Math.exp(1)
-log_f  = Math.log(2.7183)
-
+var my_pi  = Math.PI
+var my_e   = Math.E
+var root_f = Math.sqrt(2.0)
+var cos_f  = Math.cos(3.1416) // radians
+var exp_f  = Math.exp(1)
+var log_f  = Math.log(2.7183)
+var pow_i  = Math.pow(2,3)
+var rand_f = Math.random()
+var round_i = Math.round(2.234567)
+var regx1_i  = 'hello javascript'.search(/jav/)
+var regx2_i  = 'hello javascript'.search(/l.+java/)
 
 print(num_i)
 print(float_i)
@@ -81,4 +85,9 @@ print(root_f)
 print(cos_f)
 print(exp_f)
 print(log_f)
+print(pow_i)
+print(rand_f)
+print(round_i)
+print(regx1_i)
+print(regx2_i)
 
