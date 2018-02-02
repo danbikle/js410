@@ -42,3 +42,18 @@ print = function(x) {
     return true
 }
 
+print(num_i)
+print(float_i)
+print(some1_s)
+print(some2_s)
+print(some3_s)
+print(some4_s)
+print(some_a)
+print(some_o)
+print(is_true)
+print(is_false)
+print(f10)
+print(f11)
+
+
+
