@@ -51,6 +51,15 @@ print = function(x) {
 my_dt_i = Date.now() // UNIX time
 my_dt_s = Date() // Readable
 
+// Some Math
+my_pi  = Math.PI
+my_e   = Math.E
+root_f = Math.sqrt(2.0)
+cos_f  = Math.cos(1) // radian
+exp_f  = Math.exp(1)
+log_f  = Math.log(2.7183)
+
+
 print(num_i)
 print(float_i)
 print(some1_s)
@@ -66,3 +75,10 @@ print(f10)
 print(f11)
 print(my_dt_i)
 print(my_dt_s)
+print(my_pi)
+print(my_e)
+print(root_f)
+print(cos_f)
+print(exp_f)
+print(log_f)
+
