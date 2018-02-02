@@ -90,8 +90,7 @@ var rex_mood = rex.mood('Happy')
 // if, then, else
 if ( 1 > 2 ) {
     var is_1_gt2 = true
-}
-else {
+} else {
     var is_1_gt2 = false
 }
 
