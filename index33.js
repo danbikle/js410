@@ -61,8 +61,51 @@ var log_f  = Math.log(2.7183)
 var pow_i  = Math.pow(2,3)
 var rand_f = Math.random()
 var round_i = Math.round(2.234567)
-var regx1_i  = 'hello javascript'.search(/jav/)
-var regx2_i  = 'hello javascript'.search(/l.+java/)
+var regx1_i = 'hello javascript'.search(/jav/)
+var regx2_i = 'hello javascript'.search(/l.+java/)
+
+// new operator
+function Cat(name, type, weight) {
+  this.name   = name
+  this.type   = type
+  this.weight = weight
+}
+var bob = new Cat('Bob', 'Tabby', 10)
+
+class Dog {
+    constructor(name, type, weight) {
+      this.name   = name
+      this.type   = type
+      this.weight = weight
+    }
+    mood(str) {
+	return this.name + ' is ' + str
+    }
+}
+var rex      = new Dog('Rex', 'Lab', 20)
+var rex_mood = rex.mood('Happy')
+
+// if, then, else
+if ( 1 > 2 ) {
+    var is_1_gt2 = true
+}
+else {
+    var is_1_gt2 = false
+}
+
+// for-loop
+var loop_a = [1,1,1,1,5]
+
+for (i = 0; i < 5; i++) {
+    loop_a[i] = i
+}
+
+// another for-loop
+var obj_a = []
+var obj_o = {k1: 1, k2: 2, k3: 3}
+for (var prop in obj_o) {
+    obj_a.push(prop)
+}
 
 print(num_i)
 print(float_i)
@@ -90,4 +133,10 @@ print(rand_f)
 print(round_i)
 print(regx1_i)
 print(regx2_i)
+print(bob.type)
+print(rex.type)
+print(rex_mood)
+print(is_1_gt2)
+print(loop_a)
+print(obj_a)
 
