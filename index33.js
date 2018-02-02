@@ -62,10 +62,6 @@ var pow_i  = Math.pow(2,3)
 var rand_f = Math.random()
 var round_i = Math.round(2.234567)
 
-// Regular-Expression Demos:
-var regx1_i = 'hello javascript'.search(/jav/)
-var regx2_i = 'hello javascript'.search(/l.+java/)
-
 // new operator
 function Cat(name, type, weight) {
   this.name   = name
@@ -118,6 +114,11 @@ for (var prop in obj_o) {
     obj_a.push(prop)
 }
 
+// Regular-Expression Demos:
+var regx1_i = 'hello javascript'.search(/jav/)
+var regx2_i = 'hello javascript'.search(/l.+java/)
+var regx3_i = 'hello javascript'.search(/hi/) // -1
+
 print(num_i)
 print(float_i)
 print(some1_s)
@@ -142,8 +143,6 @@ print(log_f)
 print(pow_i)
 print(rand_f)
 print(round_i)
-print(regx1_i)
-print(regx2_i)
 print(bob.type)
 print(rex.type)
 print(rex_mood)
@@ -151,3 +150,6 @@ print(is_1_gt2)
 print(loop_a)
 print(obj_a)
 print(greeting)
+print(regx1_i)
+print(regx2_i)
+print(regx3_i)
